@@ -1,11 +1,12 @@
-let contador = 0;
-let numero = 1;
+let totalDeMultiplosDeSete = 0;
+let numeroAtual = 1;
 
-while (numero <= 2000) {
-  if (numero % 7 === 0) {
-    contador++;
+while (numeroAtual <= 2000) {
+  if (numeroAtual % 7 === 0) {
+    totalDeMultiplosDeSete++;
   }
-  numero++;
+  numeroAtual++;
 }
 
-console.log("Quantidade de números múltiplos de 7 até 2000: " + contador);
+console.log("Quantidade de números múltiplos de 7 até 2000: " + totalDeMultiplosDeSete);
+
